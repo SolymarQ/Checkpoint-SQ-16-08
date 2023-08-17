@@ -1,0 +1,4 @@
+Memorias Principales:
+-Rom
+-Ram
+-Cache

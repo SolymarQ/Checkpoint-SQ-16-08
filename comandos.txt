@@ -1,0 +1,24 @@
+  1  git init
+  2  git remote add origin https://github.com/SolymarQ/Checkpoint-SQ-16-08.git
+  3  git branch -M main
+  4  git push -u origin main
+  5  touch main.js index.html
+  6  git status
+  7  git add .
+  8  git commit -m "commit 01 SolymarQuiaro"
+  9  git push origin main
+  10  git branch feature
+  11  git checkout feature 
+  12  mkdir Hardware Software SeguridadInformatica
+  13  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  14  git status
+  15  git add .
+  16  git commit -m "commit 02 SolymarQuiaro"
+  17  git push origin feature 
+  18  git checkout main 
+  19  mv main.js resumenHardware.txt
+  20  mv index.html resumenSoftware.txt
+  21  nano resumenSoftware.txt 
+  22  nano resumenHardware.txt 
+  23  touch comandos.txt
+  24  history > comandos.txt 
